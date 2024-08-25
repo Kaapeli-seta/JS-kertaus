@@ -4,7 +4,7 @@ function cel()
   let x = +prompt('Grade');
   console.log(x)
   while (x<0 || 100<x || isNaN(x)){
-    x = +prompt('incurect number try again');
+    x = +prompt('incurect input, try again');
   }
 
   return x
